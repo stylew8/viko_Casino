@@ -1,0 +1,545 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 16344 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/vCasino/viko_Casino/vikoCasinoUnity
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63929
+Successfully changed project path to: D:/vCasino/viko_Casino/vikoCasinoUnity
+D:/vCasino/viko_Casino/vikoCasinoUnity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22060] Host "[IP] 192.168.1.116 [Port] 0 [Flags] 2 [Guid] 1089989135 [EditorId] 1089989135 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4BMB392) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22060] Host "[IP] 192.168.1.116 [Port] 0 [Flags] 2 [Guid] 1089989135 [EditorId] 1089989135 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4BMB392) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 44.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/vCasino/viko_Casino/vikoCasinoUnity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2978 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018103 seconds.
+- Loaded All Assemblies, in  0.728 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.484 seconds
+Domain Reload Profiling: 1202ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (129ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (484ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.204 seconds
+Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.943 seconds
+Domain Reload Profiling: 2143ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (729ms)
+		LoadAssemblies (615ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.4 KB). Loaded Objects now: 4521.
+Memory consumption went from 149.4 MB to 149.1 MB.
+Total: 4.319300 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.394700 ms MarkObjects: 3.215100 ms  DeleteObjects: 0.381900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/LoadScene.cs: 503845d1cdc5fbf085d2de5813e86589 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.261 seconds
+Refreshing native plugins compatible for Editor in 6.87 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.131 seconds
+Domain Reload Profiling: 3396ms
+	BeginReloadAssembly (520ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (757ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2139ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (986ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (748ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 7.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (217.2 KB). Loaded Objects now: 4525.
+Memory consumption went from 146.9 MB to 146.7 MB.
+Total: 4.571400 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.360500 ms MarkObjects: 3.661400 ms  DeleteObjects: 0.213800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/LoadScene.cs: 503845d1cdc5fbf085d2de5813e86589 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1035870.105185 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/2_pikes.png
+  artifactKey: Guid(84a30ccaac8352b489854580750a37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/2_pikes.png using Guid(84a30ccaac8352b489854580750a37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c1c0fc502b39495c49366e43fa3d20') in 0.553504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/5_clovers.png
+  artifactKey: Guid(850ef2e98d31f014bbfd0b24a9a9768f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/5_clovers.png using Guid(850ef2e98d31f014bbfd0b24a9a9768f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8164edf659316b748f76446f7561ec1') in 0.058304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/7_diam.png
+  artifactKey: Guid(4214e66f77df63c418bde60eab1333a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/7_diam.png using Guid(4214e66f77df63c418bde60eab1333a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38888b4a6e4d9a110f0f32c7eea13012') in 0.043630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024564 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/Ace_pikes.png
+  artifactKey: Guid(08243cb8b1b141f4dbe0a5e79d290654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/Ace_pikes.png using Guid(08243cb8b1b141f4dbe0a5e79d290654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb3a4fd8b14e48556934cd0ebb4ac0b') in 0.104468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/risk_game-logo_no_shadow.png
+  artifactKey: Guid(c0b25be0286b5104aba35c236dafd4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/risk_game-logo_no_shadow.png using Guid(c0b25be0286b5104aba35c236dafd4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb1e3a685f513b744cf1b3b3dea780e') in 0.191381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031248 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/5_hearts.png
+  artifactKey: Guid(a29bd214e385d6c459912dda60e281bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/5_hearts.png using Guid(a29bd214e385d6c459912dda60e281bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba0b6ab018c098232692f3ef66369ff') in 0.088686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009657 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/6_clovers.png
+  artifactKey: Guid(c9be4403fd9c653419f1723633c40a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/6_clovers.png using Guid(c9be4403fd9c653419f1723633c40a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae5de07b74919ecc45535df603874c4') in 0.072055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/3_diam.png
+  artifactKey: Guid(2677cb31f98673d4b97185eb0e81b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/3_diam.png using Guid(2677cb31f98673d4b97185eb0e81b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1955ba2098bd65d0843e1db4f53773') in 0.092104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/8_diam.png
+  artifactKey: Guid(f29d067dc360a2941aecf2d1ef287132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/8_diam.png using Guid(f29d067dc360a2941aecf2d1ef287132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a0aa4388c6506bfab5b20eb9430362') in 0.101974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011381 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/Ace_hearts.png
+  artifactKey: Guid(04afd07fe5a299a42ab7b38c0391fd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/Ace_hearts.png using Guid(04afd07fe5a299a42ab7b38c0391fd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7f44ba83abee8e3aa9678d03e4a386') in 0.052993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/9_clovers.png
+  artifactKey: Guid(ddf2ff06186d950409dde8f7da019229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/9_clovers.png using Guid(ddf2ff06186d950409dde8f7da019229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e19be7beda063c268bb0b5adc2aacd') in 0.063895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/risk_game-logo.png
+  artifactKey: Guid(c54ddb3b7826bf447bb64bb56731c694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/risk_game-logo.png using Guid(c54ddb3b7826bf447bb64bb56731c694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45aac773f1e8838b05cd5559786e5d') in 0.378600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037761 seconds.
+  path: Assets/Rock climber slot game kit/risk_game/6_diam.png
+  artifactKey: Guid(fa652fbcda431bc4599b0e65191b8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/risk_game/6_diam.png using Guid(fa652fbcda431bc4599b0e65191b8c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b3fb603994b6ffa87a48fda11c0def') in 0.111331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.509056 seconds.
+  path: Assets/Rock climber slot game kit/main_game/icon_2.png
+  artifactKey: Guid(b8a379625aa830e4592c7932afca7334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/icon_2.png using Guid(b8a379625aa830e4592c7932afca7334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e716bcb024177c7206a9ff0510f780') in 0.117285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Rock climber slot game kit/main_game/icon_8.png
+  artifactKey: Guid(3d992524bb8f0494a9a5bdbf053fd91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/icon_8.png using Guid(3d992524bb8f0494a9a5bdbf053fd91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a98c7aa303cd437e84067dee83f94b3') in 0.072562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Rock climber slot game kit/main_game/icon_6.png
+  artifactKey: Guid(218e710dfdc13d14c8f27805682c1df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/icon_6.png using Guid(218e710dfdc13d14c8f27805682c1df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc4c16b5d031a376cb4e8fe2ee213de') in 0.114271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Rock climber slot game kit/main_game/rays.png
+  artifactKey: Guid(1eac692ff183ce045bed6e3e13029339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/rays.png using Guid(1eac692ff183ce045bed6e3e13029339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a41a7bb71280278dc5876fb700e8fea') in 0.240421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.786234 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/1_lines_active.png
+  artifactKey: Guid(41aca94115d8b5f48a37134713f515e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/1_lines_active.png using Guid(41aca94115d8b5f48a37134713f515e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001c1b7667ad71682b235629cb033e22') in 0.113131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021634 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/lines.png
+  artifactKey: Guid(4fb7189683d2c484ba1ff06cc9bb18bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/lines.png using Guid(4fb7189683d2c484ba1ff06cc9bb18bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6250724f45ff513364d6854ee4be0d6d') in 0.068455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028403 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/b2.png
+  artifactKey: Guid(b8e69fe68d5485e48a13f92780ad281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/b2.png using Guid(b8e69fe68d5485e48a13f92780ad281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5185ba31c33699509f83d6b7fd0d1b83') in 0.120153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/logo_small.png
+  artifactKey: Guid(ecab18d69b92bec488f0cca97f51f6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/logo_small.png using Guid(ecab18d69b92bec488f0cca97f51f6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e513a73a23c2bd1ebe4d6ac45f8d5945') in 0.189393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/betmax.png
+  artifactKey: Guid(1b38552169ad19a43bf57de8fbe3c88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/betmax.png using Guid(1b38552169ad19a43bf57de8fbe3c88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f064fa39e2c65f640a692a992ef2128') in 0.053645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/b1.png
+  artifactKey: Guid(93ecd16f5a0dace498ae856d8b71a435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/b1.png using Guid(93ecd16f5a0dace498ae856d8b71a435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307490bd4ad28cf1981165be6a80fe57') in 0.104886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/4.png
+  artifactKey: Guid(48b24019cbd5a554dbc2a3c78f182c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/4.png using Guid(48b24019cbd5a554dbc2a3c78f182c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1a202a8cb23aacbe20a5d7c8aa9e4') in 0.153137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021006 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/auto_spin_active.png
+  artifactKey: Guid(1dd02ac20f3dc5b47a239a3a993a8ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/auto_spin_active.png using Guid(1dd02ac20f3dc5b47a239a3a993a8ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f01532813e31a33227656ba23ced231') in 0.149092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002706 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/tablo.png
+  artifactKey: Guid(e8c6f9782e431f744a6c1f519bde5b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/tablo.png using Guid(e8c6f9782e431f744a6c1f519bde5b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615a4fc1e651b38db07d838118e22b1e') in 0.128245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/8.png
+  artifactKey: Guid(fb46874a7b8242f439ec89ba5ca9856a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/8.png using Guid(fb46874a7b8242f439ec89ba5ca9856a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7062187e2b8ba0d3dd3daf26acbd3b1') in 0.075416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/lines_active.png
+  artifactKey: Guid(616b4ffa52059ff468e6d4606bea6448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/lines_active.png using Guid(616b4ffa52059ff468e6d4606bea6448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdf628122676218f2a7c79c822a3c3d') in 0.087396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018911 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/5.png
+  artifactKey: Guid(e49b45624db9d0b47aa3d726a6e05610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/5.png using Guid(e49b45624db9d0b47aa3d726a6e05610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ede03fdf09c771b0a04f21a34ed5834') in 0.072814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010085 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/close.png
+  artifactKey: Guid(52427e3701c93b74d888a4abc21c6eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/close.png using Guid(52427e3701c93b74d888a4abc21c6eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937712a72901b047044ce3e22ce34302') in 0.227605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.067315 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/arrow_back.png
+  artifactKey: Guid(1a23292a7e3593049b03996c507ba1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/arrow_back.png using Guid(1a23292a7e3593049b03996c507ba1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438582b513ff6056ab363a8562a4078d') in 0.168700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.028821 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/7.png
+  artifactKey: Guid(a305892c5da73c04fb6dc71ec4f05db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/7.png using Guid(a305892c5da73c04fb6dc71ec4f05db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e49f743f2ece076f9c13c1cd1ed7da') in 0.122432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.383961 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/winlines/4.png
+  artifactKey: Guid(88d4ad94f5d3e9548ac99cf4be39ddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/winlines/4.png using Guid(88d4ad94f5d3e9548ac99cf4be39ddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b3d847e140a547d1aaed8b423c15df') in 0.080534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/winlines/6.png
+  artifactKey: Guid(7641c41a25a997744af218a955d614e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/winlines/6.png using Guid(7641c41a25a997744af218a955d614e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd3f651a3964ac64f60a736f91d89ff') in 0.195543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 37.807432 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/4.png
+  artifactKey: Guid(5bafc4aa59e59e54b99a537805a86d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/4.png using Guid(5bafc4aa59e59e54b99a537805a86d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f3d260823b2e9677d4b9a61c5de040') in 1.709517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018242 seconds.
+  path: Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/5.png
+  artifactKey: Guid(0d646bfebf3d5c640a016bce1877e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/main_game/ui/icons_value_separate/5.png using Guid(0d646bfebf3d5c640a016bce1877e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe227412864147c47e65a8e56125d88') in 0.263534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.963022 seconds.
+  path: Assets/Rock climber slot game kit/animations/blured icons/icon_2/icon_2_03.png
+  artifactKey: Guid(16b2a2d9906baab4d921e2628d4d02dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock climber slot game kit/animations/blured icons/icon_2/icon_2_03.png using Guid(16b2a2d9906baab4d921e2628d4d02dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25481e37bc4fb09acd8aa02e956c046e') in 0.128751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
