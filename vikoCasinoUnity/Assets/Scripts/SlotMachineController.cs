@@ -6,7 +6,6 @@ public class SlotMachineController : MonoBehaviour
 {
     public GameObject[] reels; // Массив GameObject барабанов
     public Sprite[] symbols; // Массив всех возможных спрайтов символов
-
     // Вызывается для начала вращения и рандомизации барабанов
     public void SpinReels()
     {
@@ -14,6 +13,7 @@ public class SlotMachineController : MonoBehaviour
         {
             RandomizeReel(reel);
         }
+        
         // Здесь можно добавить логику для начала вращения барабанов
     }
 
