@@ -5,22 +5,76 @@ using UnityEngine;
 public class Spin : MonoBehaviour
 {
 
-    public float speed = 5.0f; // —корость вращени€ барабана
-    public float endPositionY; // Y-координата, при достижении которой барабан перемещаетс€ вверх
-    public float resetPositionY; // Y-координата, куда барабан перемещаетс€ дл€ начала нового цикла
+    public float initialSpeed = 5.0f; // Ќачальна€ скорость вращени€
+    public float spinTime = 2.0f; // ¬рем€, в течение которого барабан будет замедл€тьс€ до остановки
+    public float endPositionY; // Y-координата, при достижении которой спрайт переноситс€ вверх
+    public float resetPositionY; // Y-координата, куда спрайт перемещаетс€ дл€ начала нового цикла
+    private bool isSpinning; // ‘лаг дл€ проверки, вращаетс€ ли барабан
+    private bool firstSpin = true;
+    public SlotMachineController controller;
+    
 
-    void Update()
+    //void Start()
+    //{
+    //    // «апускаем вращение при старте
+    //    StartSpinning();
+    //}
+
+    public void StartSpinning()
     {
-        // ѕеремещение барабана вниз
-        transform.Translate(Vector3.down * speed * Time.deltaTime, Space.World);
-
-        // ѕроверка, достиг ли барабан нижней границы
-        if (transform.position.y < endPositionY)
+        if (!isSpinning && firstSpin)
         {
-            // ѕеремещение барабана обратно вверх дл€ продолжени€ вращени€
-            Vector3 newPosition = transform.position;
-            newPosition.y = resetPositionY;
-            transform.position = newPosition;
+
+            StartCoroutine(SpinReel());
+            firstSpin = false;
+        }
+        else if (!firstSpin)
+        {
+
+            // ¬ызываем сброс и рандомизацию барабанов
+            controller.ResetReels();
+            StartCoroutine(SpinReel());
+            // “акже останавливаем все текущие вращени€
+        }
+        else
+        { 
+            StopAllCoroutines();
+           
+            // ¬озможно, потребуетс€ дополнительна€ логика дл€ сброса состо€ни€ вращени€
+            isSpinning = false;
+            
         }
     }
+
+    private IEnumerator SpinReel()
+    {
+        isSpinning = true;
+        float currentSpeed = initialSpeed;
+        float timeSpinning = 0.0f;
+
+        // ѕлавное замедление вращени€ от initialSpeed до 0 за врем€ spinTime
+        while (timeSpinning < spinTime)
+        {
+            // «амедление барабана со временем
+            currentSpeed = Mathf.Lerp(initialSpeed, 0, timeSpinning / spinTime);
+            transform.Translate(Vector3.down * currentSpeed * Time.deltaTime, Space.World);
+            timeSpinning += Time.deltaTime;
+
+            //// ѕроверка, достиг ли барабан нижней границы
+            //if (transform.position.y < endPositionY)
+            //{
+            //    // ѕеремещение барабана обратно вверх
+            //    Vector3 newPosition = transform.position;
+            //    newPosition.y = resetPositionY;
+            //    transform.position = newPosition;
+            //}
+
+            yield return null;
+        }
+
+        // ѕосле замедлени€, остановить барабан
+        isSpinning = false;
+    }
+
+    
 }
