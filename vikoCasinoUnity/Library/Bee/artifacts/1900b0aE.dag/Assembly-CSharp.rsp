@@ -461,6 +461,7 @@
 "Assets/Modern UI Pack/Scripts/Window/WindowManager.cs"
 "Assets/Modern UI Pack/Scripts/Window/WindowManagerButton.cs"
 "Assets/Modern UI Pack/Scripts/Window/WindowManagerEditor.cs"
+"Assets/Scripts/RoulleteWheel.cs"
 "Assets/Scripts/Slot.cs"
 "Assets/Scripts/SlotMachine.cs"
 "Assets/Scripts/SlotMachineController.cs"
