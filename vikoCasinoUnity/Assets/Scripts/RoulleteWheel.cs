@@ -33,7 +33,7 @@ public class RoulleteWheel : MonoBehaviour
     {
         canWeTurn = false;
 
-        numberOfTurns = new System.Random().Next(150, 300);
+        numberOfTurns = new System.Random().Next(10, 20);
 
         speed = 0.01f;
 
@@ -203,8 +203,11 @@ public class RoulleteWheel : MonoBehaviour
             case 35:
                 winningText.text = "3 black";
                 break;
+            case 36:
+                winningText.text = "26 red";
+                break;
             default:
-                winningText.text = "";
+                winningText.text = "3 black";
                 break;
         }
 
