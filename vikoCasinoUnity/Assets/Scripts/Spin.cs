@@ -44,6 +44,9 @@ public class Spin : MonoBehaviour
             isSpinning = false;
             
         }
+        controller.CheckWin(0, 0);
+        controller.CheckWin(0, 1);
+        controller.CheckWin(0, 2);
     }
 
     private IEnumerator SpinReel()
@@ -74,6 +77,8 @@ public class Spin : MonoBehaviour
 
         // ѕосле замедлени€, остановить барабан
         isSpinning = false;
+        
+
     }
 
     

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.WSA;
 
 public class SlotMachineController : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class SlotMachineController : MonoBehaviour
         
         // Здесь можно добавить логику для начала вращения барабанов
     }
+
+
 
     public void Start()
     {
@@ -58,6 +62,68 @@ public class SlotMachineController : MonoBehaviour
             reels[i].transform.position = initialPositions[i];
             // Рандомизировать символы на барабане
             RandomizeReel(reels[i]);
+            
+        }
+    }
+
+    public void CheckWin(int r, int p)
+    {
+        var x = WinningLines(GetSymbolAtPosition(reels[r],p));
+        if (x)
+        {
+            Debug.Log("Win");
+        }
+        else
+        {
+            Debug.Log("Lose");
+        }
+        
+    
+    }
+    
+    public bool WinningLines(Sprite firstSymbol)
+    {
+       
+        
+        for (int i = 0; i < 3; i++)
+        {
+            if (GetSymbolAtPosition(reels[i], 0) != firstSymbol)
+            {
+                   return false;
+            }
+        }
+        return true;
+    }
+
+
+    public Sprite GetSymbolAtPosition(GameObject reel, int position)
+    {
+        // Позиции выигрышных символов в вашей иерархии, предполагая что last 3 - это 0, last 2 - это 1 и last 1 - это 2
+        string[] winningSymbolNames = { "last 1", "last 2", "last 3" };
+
+        if (position < 0 || position >= winningSymbolNames.Length)
+        {
+            Debug.LogError("Position for GetSymbolAtPosition is out of range.");
+            return null;
+        }
+
+        // Ищем дочерний объект по имени, соответствующему выигрышному символу
+        Transform symbolTransform = reel.transform.Find(winningSymbolNames[position]);
+        if (symbolTransform == null)
+        {
+            Debug.LogError("Could not find a symbol at the specified position: " + position);
+            return null;
+        }
+
+        SpriteRenderer spriteRenderer = symbolTransform.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            return spriteRenderer.sprite;
+        }
+        else
+        {
+            Debug.LogError("SpriteRenderer not found on the symbol at position: " + position);
+            return null;
         }
     }
 }
